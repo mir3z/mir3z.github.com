@@ -1,16 +1,67 @@
 <!doctype html>
 <html lang="pl">
 <head>
-    <meta charset="utf-8">
-    <title>mir3z projects</title>
-    <meta name="author" content="mir3z">
-    <meta name="description" content="mir3z projects">
+    <meta charset="utf-8" />
+    <title>mir3z :: my projects</title>
+    <meta name="author" content="mir3z" />
+    <meta name="description" content="mir3z's projects" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32698540-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 </head>
 <body>
-  <h1>My projects</h1>
-  <ul>
-    <li><a href="http://mir3z.github.com/jquery.texthighlighter/">jQuery Text Highlighter</a></li>
-    <li><a href="http://mir3z.github.com/jquery.typographer/">jQuery Typographer</a></li>
-  </ul>
+  <div id="header">
+    <div id="center">
+      <h1><span class="sym">U</span><a href="https://github.com/mir3z">mir3z.github.com</a></h1>
+      <h2>my projects</h2>
+    </div>
+  </div>
+  <div id="content">
+    <div class="project-card">
+      <h2>jQuery Text Highlighter</h2>
+
+      <div class="overview">
+        jQuery plugin for highlighting text fragments in HTML documents. Highlighting is realized by
+        wrapping selected text in &lt;span&gt; tags.
+      </div>
+
+      <div class="btns">
+        <a class="left" href="http://mir3z.github.com/jquery.texthighlighter/"><span class="ico">K</span><span class="text">www</span></a>
+        <a class="right" href="https://github.com/mir3z/jquery.texthighlighter.git/"><span class="ico">S</span><span class="text">github</span></a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h2>jQuery Typographer</h2>
+
+      <div class="overview">
+        jQuery plugin for improving typographical quality of texts on web sites. Only for Polish
+        language!
+      </div>
+
+      <div class="btns">
+        <a class="left" href="http://mir3z.github.com/jquery.typographer/"><span class="ico">K</span><span class="text">www</span></a>
+        <a class="right" href="https://github.com/mir3z/jquery.typographer/"><span class="ico">S</span><span class="text">github</span></a>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/javascript">
+    $(document).ready(function() {
+
+    });
+  </script>
 </body>
 </html>
