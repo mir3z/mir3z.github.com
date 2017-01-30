@@ -106,6 +106,10 @@ body {
     color: #000;
 }
 
+.btns a:active {
+    box-shadow: inset #afafaf 0 0 3px;
+}
+
 .btns a {
     font-size: 11px;
     min-width: 70px;
